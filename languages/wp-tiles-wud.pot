@@ -1,0 +1,260 @@
+# Copyright (C) 2016 WP Tiles WUD
+# This file is distributed under the same license as the WP Tiles WUD package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Tiles WUD\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-tiles-wud\n"
+"POT-Creation-Date: 2016-03-03 20:30:47+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: DANNY WUD <info@wistudat.be>\n"
+
+#: pages/wp-tiles-wud-admin.php:11
+msgid "More than just tiles on a page"
+msgstr ""
+
+#: pages/wp-tiles-wud-admin.php:193
+msgid "If selected, <b>all</b> Wordpress category\\'s and Tags pages will be displayed as tiles!<br>Remove the selection to de-activate it."
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "WP Tiles WUD adds responsive, customizable and dynamic tiles to WordPress posts and pages."
+msgstr ""
+
+#: pages/wp-tiles-wud-admin.php:288
+msgid "Fade in tiles"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WP Tiles WUD"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://wp.wistudat.be/wp-tiles-wud-demo/"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Danny WUD"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://wistudat.be"
+msgstr ""
+
+#. Tags of the plugin/theme
+msgid "tiles, tile, responsive, slug, grid, shortcode, slugs, grids, gallery, filter, display, list, page, pages, posts, post, query, custom post type"
+msgstr ""
+
+#: pages/wp-tiles-wud-admin.php:297
+msgid "Visit our website"
+msgstr ""
+
+#: pages/wp-tiles-wud-admin.php:297
+msgid "Get FREE Support"
+msgstr ""
+
+#: wp-tiles-wud.php:81
+msgid "Settings"
+msgstr ""
+
+#: pages/wp-tiles-wud-admin.php:272
+msgid "Order direction"
+msgstr ""
+
+#: pages/wp-tiles-wud-admin.php:273
+msgid "Sort order tiles"
+msgstr ""
+
+#: pages/wp-tiles-wud-admin.php:277
+msgid "Show not"
+msgstr ""
+
+#: pages/wp-tiles-wud-admin.php:278
+msgid "Without title"
+msgstr ""
+
+#: pages/wp-tiles-wud-admin.php:279
+msgid "With title"
+msgstr ""
+
+#: pages/wp-tiles-wud-admin.php:280
+msgid "Show always"
+msgstr ""
+
+#: pages/wp-tiles-wud-admin.php:282
+msgid "The excerpt"
+msgstr ""
+
+#: pages/wp-tiles-wud-admin.php:283
+msgid "Show/Hide ..."
+msgstr ""
+
+#: pages/wp-tiles-wud-admin.php:286
+msgid "Maximum words"
+msgstr ""
+
+#: pages/wp-tiles-wud-admin.php:294
+msgid "Save Changes"
+msgstr ""
+
+#: pages/wp-tiles-wud-admin.php:270
+msgid "Descending"
+msgstr ""
+
+#: pages/wp-tiles-wud-admin.php:262
+msgid "Post ID"
+msgstr ""
+
+#: pages/wp-tiles-wud-admin.php:264
+msgid "Order by"
+msgstr ""
+
+#: pages/wp-tiles-wud-admin.php:265
+msgid "Order tiles by"
+msgstr ""
+
+#: pages/wp-tiles-wud-admin.php:269
+msgid "Ascending"
+msgstr ""
+
+#: pages/wp-tiles-wud-admin.php:261
+msgid "Name"
+msgstr ""
+
+#: pages/wp-tiles-wud-admin.php:253
+msgid "Tiles"
+msgstr ""
+
+#: pages/wp-tiles-wud-admin.php:255
+msgid "Target: read more button"
+msgstr ""
+
+#: pages/wp-tiles-wud-admin.php:256
+msgid "Archive or tiles"
+msgstr ""
+
+#: pages/wp-tiles-wud-admin.php:260
+msgid "Date"
+msgstr ""
+
+#: pages/wp-tiles-wud-admin.php:187
+msgid "Set as primary to display"
+msgstr ""
+
+#: pages/wp-tiles-wud-admin.php:191
+msgid "Activate Tile Pages"
+msgstr ""
+
+#: pages/wp-tiles-wud-admin.php:196
+msgid "Archive: read more button or text"
+msgstr ""
+
+#: pages/wp-tiles-wud-admin.php:197 pages/wp-tiles-wud-admin.php:200
+msgid "Empty = button"
+msgstr ""
+
+#: pages/wp-tiles-wud-admin.php:199
+msgid "Tiles: read more button or text"
+msgstr ""
+
+#: pages/wp-tiles-wud-admin.php:206
+msgid "Buttons"
+msgstr ""
+
+#: pages/wp-tiles-wud-admin.php:222
+msgid "Lay-out Tiles"
+msgstr ""
+
+#: pages/wp-tiles-wud-admin.php:223
+msgid "Choose lay-out"
+msgstr ""
+
+#: pages/wp-tiles-wud-admin.php:236
+msgid "Number of tiles to show"
+msgstr ""
+
+#: pages/wp-tiles-wud-admin.php:237
+msgid "Maximum"
+msgstr ""
+
+#: pages/wp-tiles-wud-admin.php:247
+msgid "Show more tiles button"
+msgstr ""
+
+#: pages/wp-tiles-wud-admin.php:248
+msgid "Number of extra tiles to show"
+msgstr ""
+
+#: pages/wp-tiles-wud-admin.php:252
+msgid "Archive"
+msgstr ""
+
+#: pages/wp-tiles-wud-admin.php:186
+msgid "Featured image"
+msgstr ""
+
+#: pages/wp-tiles-wud-admin.php:180
+msgid "Hide Tile Title"
+msgstr ""
+
+#: pages/wp-tiles-wud-admin.php:183
+msgid "Tile shadow"
+msgstr ""
+
+#: pages/wp-tiles-wud-admin.php:184 pages/wp-tiles-wud-admin.php:192
+#: pages/wp-tiles-wud-admin.php:289
+msgid "Active"
+msgstr ""
+
+#: pages/wp-tiles-wud-admin.php:177
+msgid "Hide Category or Tag Title"
+msgstr ""
+
+#: pages/wp-tiles-wud-admin.php:178 pages/wp-tiles-wud-admin.php:181
+msgid "Hide"
+msgstr ""
+
+#: pages/wp-tiles-wud-admin.php:172
+msgid "Tile Title"
+msgstr ""
+
+#: pages/wp-tiles-wud-admin.php:173
+msgid "Bottom"
+msgstr ""
+
+#: pages/wp-tiles-wud-admin.php:170 pages/wp-tiles-wud-admin.php:175
+#: pages/wp-tiles-wud-admin.php:211
+msgid "Font size"
+msgstr ""
+
+#: pages/wp-tiles-wud-admin.php:168 pages/wp-tiles-wud-admin.php:208
+msgid "Text"
+msgstr ""
+
+#: pages/wp-tiles-wud-admin.php:166
+msgid "Category or Tag Title"
+msgstr ""
+
+#: pages/wp-tiles-wud-admin.php:167 pages/wp-tiles-wud-admin.php:207
+msgid "Background"
+msgstr ""
+
+#: pages/wp-tiles-wud-admin.php:11
+msgid "WP Tiles wud Options"
+msgstr ""
+
+#: pages/wp-tiles-wud-admin.php:120
+msgid "Settings saved"
+msgstr ""
+
+
+#: pages/wp-tiles-wud-admin.php:120
+msgid "Skip x posts"
+msgstr ""
+
+
+#: pages/wp-tiles-wud-admin.php:120
+msgid "Quantity post to skip"
+msgstr ""

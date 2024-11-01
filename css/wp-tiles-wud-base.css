@@ -1,0 +1,315 @@
+/*
+ *	Plugin Name: WP Tiles WUD
+*/
+
+/* Container (Categorie box) */
+.wp-tiles-wud-container{
+	width: 100%;
+    overflow: hidden;
+	font-size: 100%; 
+	font-family:inherit;
+}
+
+/* Wrapper (Tile) */
+.wp-tiles-wud-wrapper{
+	float:left;
+	color: #FFFFFF;
+	overflow: hidden;
+	position: relative;	
+}
+
+.wp-tiles-wud-wrapper-box{
+	float:left;
+	color: #FFFFFF;
+	overflow: hidden;
+	position: relative;	
+	box-shadow: 2px 2px 6px #000000;
+}
+
+
+/* Background image */
+.wp-tiles-wud-image{
+	position: absolute;
+	background-position: center;
+	height:100%; width:100%; 
+	background-size: cover;	
+	transition: all 1s ease;
+   -moz-transition: all 1s ease;
+   -ms-transition: all 1s ease;
+   -webkit-transition: all 1s ease;
+   -o-transition: all 1s ease;
+}
+
+
+/* Excerpt = 0 */
+.wud-0-excerpt {
+	background-color: rgba(0, 0, 0, 0.701961);
+	color: #DADADA;
+	font-size: 16px; font-size: 0.8vw;
+	position: absolute;
+	display: block;
+	overflow: hidden;	
+	text-overflow: ellipsis;
+	width:100%;
+	bottom: 0;
+	max-height: 0;
+	transition: all 1s ease;
+   -moz-transition: all 1s ease;
+   -ms-transition: all 1s ease;
+   -webkit-transition: all 1s ease;
+   -o-transition: all 1s ease;	
+}
+
+.wud-1-excerpt {
+	background-color: rgba(0, 0, 0, 0.701961);
+	color: #DADADA;
+	font-size: 16px; font-size: 0.8vw;
+	position: absolute;
+	display: block;
+	overflow: hidden;	
+	width:100%;
+	bottom: 0;
+	max-height: 0;
+	transition: all 1s ease;
+   -moz-transition: all 1s ease;
+   -ms-transition: all 1s ease;
+   -webkit-transition: all 1s ease;
+   -o-transition: all 1s ease;	
+}
+
+.wp-tiles-wud-wrapper-box:hover .wud-0-excerpt{
+	padding: 8px 4px 8px 4px;
+	height: auto !important;
+	max-height: 50% !important;
+	transition-property: all !important;
+	transition-duration: .4s !important;
+	transition-timing-function: cubic-bezier(0, 0, 0, 0.701961) !important;
+}	
+
+.wp-tiles-wud-wrapper:hover .wud-0-excerpt{
+	padding: 8px 4px 8px 4px;
+	height: auto !important;
+	max-height: 50% !important;
+	transition-property: all !important;
+	transition-duration: .4s !important;
+	transition-timing-function: cubic-bezier(0, 0, 0, 0.701961) !important;
+}
+
+
+.wp-tiles-wud-wrapper-box:hover .wud-1-excerpt{
+	padding: 8px 4px 8px 4px;
+	height: auto !important;
+	max-height: 50% !important;
+	transition-property: all !important;
+	transition-duration: .4s !important;
+	transition-timing-function: cubic-bezier(0, 0, 0, 0.701961) !important;
+}	
+
+.wp-tiles-wud-wrapper:hover .wud-1-excerpt{
+	padding: 8px 4px 8px 4px;
+	height: auto !important;
+	max-height: 50% !important;
+	transition-property: all !important;
+	transition-duration: .4s !important;
+	transition-timing-function: cubic-bezier(0, 0, 0, 0.701961) !important;
+}
+
+/* Excerpt = 2 */
+.wud-0-excerpt-2 {
+	padding: 2% 1% 2% 1%;
+	background-color: rgba(0, 0, 0, 0.701961);
+	color: #DADADA;
+	font-size: 16px; font-size: 0.8vw;
+	position: absolute;
+	display: block;
+	overflow: hidden;
+	white-space: pre-line;
+	text-overflow: ellipsis;
+	width:98%;
+	bottom: 0;
+	height: 30% !important;
+	max-height: 30% !important;
+	line-height: 2.2;
+}
+
+.wud-1-excerpt-2 {
+	padding: 2% 1% 2% 1%;
+	background-color: rgba(0, 0, 0, 0.701961);
+	color: #DADADA;
+	font-size: 16px; font-size: 0.8vw;
+	position: absolute;
+	display: block;
+	overflow: hidden;
+	width:98%;
+	bottom: 0;
+	height: 30% !important;
+	max-height: 30% !important;	
+	line-height: 2.2;
+}
+
+/* Category title */
+.wud-h1 {
+    font-weight: bold;
+	padding-right: 20px;
+    margin-bottom: 5px;
+	padding-left: 20px;
+	padding-top: 0.6vw; 
+	padding-bottom: 0.6vw; 	
+	overflow: hidden;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* Post title standard*/
+.wud-h2 {
+	padding: 2px 4px 2px 4px;
+	background-color: rgba(0, 0, 0, 0.701961);
+	color: #DADADA;
+	height: auto;
+	overflow: hidden;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+	position: absolute; 
+	width:100%;
+}
+
+/* Post title standard*/
+.wud-h4 {
+	padding: 2px 4px 12px 4px;
+	background-color: rgba(0, 0, 0, 0.701961);
+	color: #DADADA;
+	height: auto;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	text-align: right;
+    white-space: nowrap;
+	position: absolute; 
+	right: 0px;
+}
+
+#wud-h4-top{
+	top: 0px;
+}
+
+#wud-h4-bottom{
+	bottom: 0px;
+}
+
+
+.wp-tiles-wud-wrapper:hover #wud-h4-bottom{
+	display: none;
+	visibility: hidden;
+}
+
+.wp-tiles-wud-wrapper-box:hover #wud-h4-bottom{
+	display: none;
+	visibility: hidden;
+}
+
+#wud-h2{
+	bottom: 0px;
+}
+
+.wp-tiles-wud-wrapper:hover #wud-h2{
+	display: none;
+	visibility: hidden;
+}
+
+.wp-tiles-wud-wrapper-box:hover #wud-h2{
+	display: none;
+	visibility: hidden;
+}
+
+
+/* Read more space */
+.wud-bottom {
+	width:100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-bottom: 5px;
+	font-family:inherit;
+}
+
+/* Read more button (+) */
+.wud-h3 {
+	font-weight: bolder;
+	float:right;
+	margin:10px;
+	padding: 4px 16px 4px 16px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* Read more button (txt) */
+.wud-h3-txt {
+	font-weight: bolder;
+	float:right;
+	margin:10px;
+	border: none;
+	padding: 4px 16px 4px 16px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.wud-h3:hover{
+	background-color: #68737D;
+}
+
+.wud-0-excerpt-2 li {
+    margin: 0 0 0 36px;
+}
+.wud-1-excerpt-2 li {
+    margin: 0 0 0 36px;
+}
+.wud-0-excerpt-2 ul {
+    list-style: square outside;
+}
+.wud-1-excerpt-2 ul {
+    list-style: square outside;
+}
+
+/* Responsive at 920px */
+@media screen and (max-width: 920px) {
+.wp-tiles-wud-wrapper{
+	width: 100% !important;
+	height: 0;	
+	padding-bottom: 100% !important;
+	margin: 0.5%;
+}
+.wp-tiles-wud-wrapper-box{
+	width: 100% !important;
+	height: 0;	
+	padding-bottom: 100% !important;
+	margin: 0.5%;
+}
+.wud-0-excerpt {
+	padding: 2% 1% 2% 1%;
+	font-size:200% !important;
+	max-height: 98% !important;
+}
+.wud-1-excerpt {
+	padding: 2% 1% 2% 1%;
+	font-size:200% !important;
+	max-height: 98% !important;
+}
+.wud-h2 {
+	font-size: 400% !important;
+    height: 8% !important;
+    padding: 20px 20px 40px 20px !important;
+}
+.wud-0-excerpt-2 {
+	padding: 2% 1% 2% 1%;
+	font-size:200% !important;
+	height: 20% !important;
+	max-height: 20% !important;	
+}
+.wud-1-excerpt-2 {
+	padding: 2% 1% 2% 1%;
+	font-size:200% !important;
+	height: 20% !important;
+	max-height: 20% !important;	
+}
+}

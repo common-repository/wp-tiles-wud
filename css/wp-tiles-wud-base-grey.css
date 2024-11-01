@@ -1,0 +1,12 @@
+  
+.wp-tiles-wud-wrapper > .wp-tiles-wud-image{ 	
+	filter:gray alpha(opacity=99);
+	-webkit-filter:grayscale(99%);
+	filter: grayscale(99%);
+}
+
+.wp-tiles-wud-wrapper-box > .wp-tiles-wud-image{ 
+	filter:gray alpha(opacity=99);
+	-webkit-filter:grayscale(99%);
+	filter: grayscale(99%);
+}
